@@ -24,4 +24,4 @@ Installation Requirements:
   UD library or Exodriver (for UD devices):
   https://labjack.com/support/software/installers/ud
   https://labjack.com/support/software/installers/exodriver
-* Python 2.6, 2.7 and 3.x.
+* Python 2.7 or 3.x.

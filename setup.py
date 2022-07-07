@@ -10,7 +10,6 @@ CLASSIFIERS = [
     'Operating System :: POSIX :: Linux',
     'Programming Language :: Python',
     'Programming Language :: Python :: 2',
-    'Programming Language :: Python :: 2.6',
     'Programming Language :: Python :: 2.7',
     'Programming Language :: Python :: 3',
     'Programming Language :: Python :: 3.3',
@@ -26,7 +25,7 @@ CLASSIFIERS = [
     ]
 
 setup(name="labjack",
-      version='1.0.0',
+      version='0.0.1',
       description='LabJack Python wrappers',
       url='https://labjack.com/support/software/',
       author='LabJack Corporation',
@@ -35,9 +34,4 @@ setup(name="labjack",
       maintainer_email='support@labjack.com',
       classifiers=CLASSIFIERS,
       license='MIT X11',
-      packages=[],
-      install_requires=[
-        'labjack-ljm',
-        'LabJackPython',
-      ],
       )
